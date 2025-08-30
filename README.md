@@ -24,7 +24,7 @@
 |1-10选重|数字|数字选重|✔|✔|✔|✔|✔|
 |切换方案|Ctrl + Shift + `||✔|✔|✔|✔|✔|
 
-[更多说明](https://github.com/mlzzz/Rime-092wb-compatible/wiki)  
+[更多说明](https://github.com/mlzzz/ime-092wb-compatible/wiki)  
 
 ## 内置方案
 + **092五笔**：主体方案
@@ -50,33 +50,33 @@ cd plum
 ibus-rime
 安装或更新所有文件
 ```shell
-bash rime-install mlzzz/Rime-092wb-compatible:recipes/full
+bash rime-install mlzzz/ime-092wb-compatible:recipes/full
 ```
 
 安装或更新所有词库文件
 ```shell
-bash rime-install mlzzz/Rime-092wb-compatible:recipes/all_dicts
+bash rime-install mlzzz/ime-092wb-compatible:recipes/all_dicts
 ```
 
 安装或更新opencc
 ```shell
-bash rime-install mlzzz/Rime-092wb-compatible:recipes/opencc
+bash rime-install mlzzz/ime-092wb-compatible:recipes/opencc
 ```
 
 安装或更新拆分
 ```shell
-bash rime-install mlzzz/Rime-092wb-compatible:recipes/spelling
+bash rime-install mlzzz/ime-092wb-compatible:recipes/spelling
 ```
 
 第三方Rime前端，需在plum之用法前加上rime_frontend或rime_dir参数。
 安装或更新所有文件
 ```shell
-rime_frontend=fcitx-rime bash rime-install mlzzz/Rime-092wb-compatible:recipes/full
+rime_frontend=fcitx-rime bash rime-install mlzzz/ime-092wb-compatible:recipes/full
 ```
 
 或
 ```shell
-rime_dir="$HOME/.config/fcitx/rime" bash rime-install mlzzz/Rime-092wb-compatible:recipes/full
+rime_dir="$HOME/.config/fcitx/rime" bash rime-install mlzzz/ime-092wb-compatible:recipes/full
 ```
 ### Windows
-「输入法设定」-> 「获取更多输入方案」-> 「mlzzz/Rime-092wb-compatible」-> 布署
+「输入法设定」-> 「获取更多输入方案」-> 「mlzzz/ime-092wb-compatible」-> 布署
